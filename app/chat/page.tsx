@@ -288,7 +288,7 @@ const TTSControls: React.FC<TTSControlsProps> = ({ messageContent, messageId, is
     }
 
     try {
-      const response = await fetch('https://api.elevenlabs.io/v1/text-to-speech/Z5A0ZMhOWwL3m0q2Yo1P/stream', {
+      const response = await fetch('https://api.elevenlabs.io/v1/text-to-speech/0Xr8PE8Zxj4kKruOlEw7/stream', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
